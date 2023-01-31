@@ -1,0 +1,126 @@
+body{
+    background-color:#38a89d;
+
+    margin:0px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.background{
+   background-repeat: no-repeat;
+    position: absolute;
+    width: 100%;
+    height: 220%;
+    top: -80%;
+    left: -60%;
+    z-index: -1;
+    transform: rotate(13deg);
+    
+}
+.background-down{
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 100%;
+    height: 220%;
+    top: 80%;
+    left: 60%;
+    z-index: -1;
+    transform: rotate(13deg);
+    
+}
+.container{
+    background-color: #FFFFFF;
+    align-items: center;
+    margin-top: 120px;
+    position: relative;
+    top: 0;
+    left: 0;
+    border-radius: 8px;
+    
+}
+.cover{
+  position: relative;
+  top: 0;
+  left: 0;
+  border-radius: 8px;
+
+}
+.victor{
+    background-color:rgb(218, 143, 143);
+    position: absolute;
+    top: 90px;
+    left: 120px;
+    border-radius: 50px;
+    border: 7px solid #FFFFFF;
+}
+.container h1{
+    color: #2E3349;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 70px;
+    margin-left: 120px;
+    line-height: 22.32px;
+
+}
+.container span{
+    color: #6B7082;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22.32px;
+} 
+.container p{
+    color:#6B7082;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.36px;
+    margin-left: 155px;
+    margin-top: 13px;
+}
+.rectangle{
+    height: 1px;
+    width: 350px;
+    background-color:grey;
+    margin-top: 17px;
+    margin-bottom: 10px;
+}
+.followers{
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.followers h1{
+    margin-left:50px;
+    font-size: 18px;
+    line-height: 22.32px;
+    font-weight: 700;
+}
+.followers span.one{
+    margin-left: 80px;
+    font-size: 18px;
+    line-height: 22.32px;
+    font-weight: 700;
+    color: #2E3349;
+    
+}
+.followers span.second{
+    margin-left:70px;
+    font-size: 18px;
+    line-height: 22.32px;
+    font-weight: 700;
+    color: #2E3349;
+}
+.followers p{
+    margin-left:42px;
+    margin-top: 9px; 
+    font-weight: 400;
+    font-size: 14px;
+    
+}
+.likes{
+    margin-left: 62px;
+    margin-top: 9px;
+}
+.photos{
+    margin-left:65px;
+    margin-top: 9px;
+}
