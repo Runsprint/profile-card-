@@ -11,19 +11,19 @@ body{
 
 .container{
     background-color: #FFFFFF;
-    align-items: center;
     margin-top: 120px;
     position: relative;
-    top: 0;
-    left: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 349.5px;
     border-radius: 8px;
-    
 }
 .cover{
   position: relative;
   top: 0;
   left: 0;
-  border-radius: 8px;
+  border-radius: 3px;
 
 }
 .victor{
