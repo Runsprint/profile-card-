@@ -4,7 +4,7 @@ body{
     background-position:top -500px left -500px, bottom -500px right -520px;
     background-repeat: no-repeat;
     margin:0px;
-    /* display:flex; */
+    display:flex;
     align-items: center;
     justify-content: center;
 }
